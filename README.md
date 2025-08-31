@@ -1,16 +1,16 @@
 # SimpleQR
 
-SimpleQR is a web-based QR code generator built with Python and Streamlit. Users can enter text or a URL, customize QR code colors, box size, border, error correction level, and download the QR code as PNG or JPEG.
+SimpleQR คือโปรแกรมสร้าง QR Code แบบเว็บ ที่สร้างด้วย Python และ Streamlit ผู้ใช้สามารถกรอกข้อความหรือ URL ปรับแต่งสีของ QR Code ขนาดกล่อง ขอบ ระดับความทนทานต่อข้อผิดพลาด และดาวน์โหลด QR Code เป็นไฟล์ PNG หรือ JPEG
 
-## Features
+## ฟีเจอร์
 
-- Generate QR codes from text or URLs
-- Customize QR code color and background
-- Adjust box size and border
-- Choose error correction level (L, M, Q, H)
-- Download QR code as PNG or JPEG
+- สร้าง QR Code จากข้อความหรือ URL
+- ปรับแต่งสีของ QR Code และพื้นหลัง
+- ปรับขนาดกล่องและขอบ
+- เลือกระดับความทนทานต่อข้อผิดพลาด (L, M, Q, H)
+- ดาวน์โหลด QR Code เป็นไฟล์ PNG หรือ JPEG
 
-## Dependencies
+## ไลบรารีที่ต้องใช้
 
 - streamlit>=1.49.1
 - qrcode[pil]>=8.2
